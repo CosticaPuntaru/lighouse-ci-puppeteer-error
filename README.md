@@ -2,6 +2,7 @@
 
 https://github.com/GoogleChrome/lighthouse
 
+issue: https://github.com/GoogleChrome/lighthouse-ci/issues/789
 
 using puppeteer to intercept network request breaks lighthouse reports
 
