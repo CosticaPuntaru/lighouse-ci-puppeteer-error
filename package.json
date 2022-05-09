@@ -1,0 +1,16 @@
+{
+  "name": "lighthouse-ci-bad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf ./lhci_reports && lhci autorun --config=.lighthouserc.js || echo \"LHCI failed!\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lhci/cli": "^0.8.2",
+    "puppeteer": "^13.7.0"
+  }
+}
